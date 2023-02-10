@@ -1,0 +1,1520 @@
+@charset "UTF-8";
+
+.wrappar{
+	width: 1360px;
+	margin: 0 auto;
+}
+
+.section-title{
+	font-size: 48px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.sheet-title{
+	display: flex;
+	align-items: center;
+}
+
+h1 img{
+	width: 165px;
+	margin-right: 40px;
+}
+
+.register{
+	background-color:#e4007f ;
+	padding: 20px 25px;
+	border-radius:10px;
+	text-align: center;
+}
+
+.register a{
+	text-decoration: none;
+}
+
+.register p{
+	color: white;
+
+}
+
+/*------------main------------*/
+main{
+	width: 1440px;
+	height: 940px;
+	background-image:url(images/main.png) ;
+	background-position : bottom;
+	background-size: 850px 46opx;
+	background-position: 90px 320px;
+}
+
+
+h2{
+	color: #333333;
+	font-size: 150px;
+	font-weight: bold;
+    line-height: 150px;
+	margin-left: 80px;
+	margin-top: 60px;
+}
+
+h2 span{
+	font-size: 100px;
+}
+
+.point {
+
+	margin-top: 30px;
+}
+
+.point li{
+ display: flex;
+ align-items: center;
+ margin-left: 945px;
+ margin-bottom: 40px;
+}
+
+.point img{
+	width: 40px;
+	height: 35px;
+	margin-right: 25px;
+}
+
+.point p{
+	color: #333333;
+	font-size: 30px;
+	line-height: 50px;
+}
+
+
+.point span{
+	font-size: 50px;
+	line-height: 50px;
+}
+
+.work-button{
+	text-align: right;
+	margin-right: 80px;
+}
+
+.work-button a{
+	width: 425px;
+	line-height: 80px;
+	border-radius:20px;
+	display:inline-block;
+	background-color:#e4007f ;
+	text-align: center;
+	text-decoration: none;
+}
+
+.work-button p{
+	color: white;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+
+
+/*-------------service-------------*/
+.service{
+	width: 1440px;
+	height: 800px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:#e2eaf1 ;
+
+}
+
+
+.service h3{
+	color: #323333;
+	font-size: 36px;
+	margin: 0 auto;
+
+}
+
+
+.service ul{
+	width: 1020px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+
+}
+
+.service li{
+	width: 300px;
+	height: 285px;
+	background-color: white;
+	margin-right: 40px;
+	margin-top: 50px;
+	flex-wrap: wrap;
+	list-style:none;
+	text-align: center;
+}
+
+
+.service-title{
+	color: #333333;
+	font-size: 24px;
+	height: 90px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.service-title2{
+	color: #333333;
+	font-size: 24px;
+	height: 90px;
+	font-weight: bold;
+	padding-top: 10px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+
+.service-span{
+	color: #e4007f;
+	font-size:36px;
+	font-weight: bold;
+}
+.service-wrap{
+	margin: 0 5%;
+	 word-wrap: break-word;
+	 text-align: left;
+}
+
+
+
+.Job{
+	margin-top: 165px;
+	margin-bottom: 160px;
+}
+
+.Job ul{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.Job li{
+	width: 395px;
+	height: 530px;
+	background-image: url(images/job.png);
+	list-style: none;
+}
+
+.job-title{
+	color: #333333;
+	font-size: 24px;
+	font-weight: bold;
+	padding:30px 0  30px 30px;
+
+	
+}
+.job-title span{
+	font-size: 36px;
+}
+
+.job-heading{
+	color: #333333;
+	font-size: 24px;
+	font-weight: bold;
+	height: 24px;
+	margin-bottom: 14px;
+	margin-left: 20px;
+}
+
+.Job-text{
+	color: #333333;
+	font-size: 15px;
+	line-height: 30px;
+	height: 64px;
+	margin-left: 30px;
+	margin-bottom: 33px;
+}
+
+.Job-text2{
+	color: #333333;
+	font-size: 15px;
+	line-height: 30px;
+	height: 64px;
+	margin-left: 30px;
+	margin-bottom: 33px;
+}
+
+.Job-money{
+	color: #e4007f;
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: bold;
+	margin-left: 30px;
+
+}
+
+.job-bouttondiv{
+	height: 415px;
+	text-align: center;
+	align-items: center;
+	padding-top: 120px;
+	background-image: url(images/job-heading.png);
+	background-position: right top;
+}
+
+
+.job-boutton{
+	color: white;
+	font-size:30px ;
+	font-weight: bold;
+	background-color: #e4007f;
+	text-decoration: none;
+	padding: 30px 50px;
+	border-radius:20px;
+	display: inline-block;
+}
+
+.job-boutton span{
+	font-size: 36px;
+}
+
+
+
+
+/*-----------voice-----------*/
+.voice ul{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 165px;
+}
+
+.voice li{
+	width: 410px;
+	height: 560px;
+	text-align: center;
+	background-color: #e2eaf1;
+	list-style: none;
+}
+
+.profession{
+	color: #333333;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.profession2{
+	display: none;
+}
+
+.voice-title{
+	color: #333333;
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 40px;
+	line-height: 30px;
+}
+
+
+.voice-title span{
+	color: #e4007f;
+	font-size: 30px;
+}
+
+
+.voice-text{
+	font-size: 15px;
+	margin-top: 40px;
+	margin: 2% 10% ;
+	 word-wrap: break-word;
+	 text-align: left;
+}
+
+.method ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 165px;
+}
+
+
+.method-contents{
+	width: 315px;
+	height: 620px;
+	border: solid 2px #e4007f;
+	text-align: center;
+	list-style: none;
+}
+
+.method-img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
+}
+
+.method-img img{
+	height: 225px;
+}
+
+.method-step{
+	color: #d31176;
+	font-size: 48px;
+	line-height: 48px;
+	font-weight: bold;
+	padding-top: 80px;
+}
+
+
+
+.method-title{
+	color: #333333;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: bold;
+	margin-top: 65px;
+	margin-bottom: 40px;
+}
+
+
+.method-text{
+	color: #333333;
+	font-size: 16px;
+	text-align: left;
+	display: inline-block;
+}
+
+
+.method-span2{
+	font-size: 16px;
+	color: #e4007f;
+}
+
+.method-span{
+	font-size: 24px;
+	color: #e4007f;
+}
+
+.triangle-list{
+	list-style: none;
+}
+
+.triangle1{
+  border-left: 40px solid #e4007f;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  list-style: none;
+}
+
+/*-------contact----------*/
+.contact{
+	width: 1440px;
+	height: 750px;
+	background-color: #e2eaf1;
+}
+
+.contact-contents{
+	width: 1360px;
+	margin: 0 auto;
+	display: flex;
+	padding-top: 80px;
+	justify-content: space-between;
+}
+
+.contact-contents h5{
+	color: #333333;
+	font-size: 60px;
+	width: 650px;
+	height: 500px;
+	margin-left: 50px;
+	background-image: url(images/main.png );
+	background-size: 610px 330px;
+	background-position: left bottom;
+}
+
+
+.form{
+	width: 595px;
+	height: 485px;
+	margin-right: 50px;
+	background-color: white;
+	text-align: center;
+}
+
+.form-title{
+	color: #e4007f;
+	font-size: 30px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+.form-title span{
+	font-size: 48px;
+}
+
+
+label{
+	color: #333333;
+	font-size: 18px;
+	display: block;
+	text-align: left;
+	margin-left: 80px;
+}
+
+input[type="text"],
+input[type="email"],
+select
+{
+width: 435px;
+height: 55px;
+background-color: #e7e6e5;
+margin-bottom: 30px;
+}
+
+.form-button{
+	color: white;
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #e4007f;
+	border: none;
+	width: 435px;
+	height: 110px;
+	border-radius:20px;
+}
+
+.form-button span{
+	font-size: 30px;
+}
+
+
+
+
+
+
+
+@media(max-width: 750px){
+	html{
+		font-size: 10px;
+	}
+	.wrappar{
+	width: 95%;
+}
+
+.section-title{
+	font-size: 3.6rem;
+	line-height: 3.6rem;
+	margin-bottom: 60px;
+}
+
+.br-sp{
+	display: none;
+} 
+.br-sp3 {
+	display: block; 
+}
+
+/*-------header----------*/
+
+header{
+	display: flex;
+	margin-top: 50px 0% 0 0%;
+}
+
+
+.sheet-title{
+	display: block;
+}
+
+.sheet-title p{
+	font-size: 1.6rem;
+}
+
+h1 img{
+	width: 120px;
+	margin-right: 0px;
+}
+
+.register{
+	font-size: 1.6rem;
+	padding: 20px 0;
+	width: 20%;
+}
+
+/*------------main------------*/
+main{
+	width: 100%;
+	height: auto;
+	background-size: 90%;
+	background-position:center bottom 30%;
+}
+
+
+h2{
+	font-size: 9.0rem;
+  line-height: 9.0rem;
+	margin-left: 5%;
+	margin-top: 15%;
+}
+
+h2 span{
+	font-size: 6.0rem;
+}
+
+.point {
+	margin-top: 0px;
+}
+
+.point li{
+ margin-left: 60%;
+ margin-bottom: 2.0rem;
+}
+
+.point img{
+	width: 30px;
+	height: auto;
+	margin-right: 20px;
+}
+
+.point p{
+	font-size: 2.0rem;
+	line-height: 36px;
+	font-weight: normal;
+}
+
+
+.point span{
+	font-size: 3.6rem;
+	line-height: 36px;
+}
+
+.work-button{
+	text-align: right;
+	margin: 45% 5% 60px 0;
+}
+
+.work-button a{
+	width: 60%;
+	line-height: 95px;
+}
+
+.work-button p{
+	font-size: 30px;
+}
+
+
+
+/*-------------service-------------*/
+.service{
+	width: 100%;
+	height:auto;
+	padding-bottom: 10%;
+	display: block;
+}
+
+
+.service h3{
+	font-size: 3.6rem;
+	text-align: center;
+	padding-top: 10%;
+}
+
+
+.service ul{
+	width: 90%;
+	margin: 0 auto;
+	justify-content: space-between;
+
+}
+
+.service li{
+	width: 48%;
+	height: auto;
+	margin-right: 0px;
+	margin-top: 50px;
+	padding-bottom: 10%;
+}
+
+.service-wrap{
+	font-size: 1.5rem;
+}
+
+/**/
+
+.Job{
+	margin-top: 165px;
+	margin-bottom: 0px;
+}
+
+.Job ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 0px;
+}
+
+.Job li{
+	width: 48%;
+	height: 100%;
+	background-image: url(images/job4.png);
+	background-position: bottom right;
+	margin-bottom: 50px;
+	position: relative;
+	border-top: 3px solid  ;
+	border-left: 3px solid;
+	padding-bottom: 20px;
+}
+
+.Job li::after{
+	 content:"";
+   display:inline-block;
+   width:3px;
+   height:82%;
+   background-color:#333333;
+   position:absolute;
+   top:0;
+   right:0;
+}
+
+.Job li:last-child{
+	background-image: none;
+	border: 0;
+	margin-bottom: 0;
+}
+.Job li:last-child::after{
+	display: none;
+}
+
+
+.Job li img{
+	width: 100%;
+	height: auto;
+	margin-top: 150px;
+}
+
+
+.job-title{
+	font-size: 1.8rem;
+	line-height: 30px;
+	padding:20px 0  12px 30px;	
+	position:relative;
+	z-index:2;
+}
+
+
+.job-title span{
+	font-size: 2.8rem;
+	line-height: 30px;
+}
+
+.job-heading{
+	font-size: 2.0rem;
+	height: 2.0rem;
+	margin-bottom: 15px;
+	position:relative;
+	z-index:2;
+}
+
+.Job-text{
+	color: #333333;
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	height: 9.8rem;
+	margin: 0 10% 30px 10%;
+
+}
+
+.Job-text2{
+	font-size: 1.6rem;
+	line-height: 2.4rem;
+	height: 6.4rem;
+	margin: 0 10% 30px 10%;
+	position:relative;
+	z-index:2;
+}
+
+.Job-money{
+	font-size: 3.6rem;
+	line-height: 3.6rem;
+	margin-left: 30px;
+	position:relative;
+	z-index:2;
+
+
+}
+
+.job-bouttondiv{
+	height: auto;
+	background-image: none;
+	padding-top: 0px;
+	margin-bottom: 160px;
+}
+
+.job-boutton{
+	width: 100%;
+	font-size:3.0rem ;
+}
+
+.job-boutton span{
+	font-size: 4.8rem;
+}
+
+/*-----------voice-----------*/
+.voice ul{
+	display: block;
+	margin-bottom: 165px;
+}
+
+.voice li{
+	display: flex;
+	width: 100%;
+	height: auto;
+	text-align: left;
+	padding: 0 3%;
+	margin-bottom: 35px;
+}
+.voice img{
+	width: 40%;
+	height: auto;
+	margin: auto 0;
+}
+
+.profession
+{
+	display: none;
+}
+
+.profession2{
+	display: block;
+	color: #333333;
+	font-size: 2.4rem;
+	font-weight: bold;
+	padding-top: 5%;
+}
+.voice-oder{
+	width: 60%;
+	margin: auto 0 auto 20px;
+}
+
+.voice-title{
+	font-size: 1.8rem;
+	margin-top: 10px;
+}
+
+.voice-title span{
+	font-size: 3.6rem;
+	line-height: 4.0rem;
+}
+
+.voice-text{
+	margin:10px 5% 0 0 ;
+	padding-bottom: 5%;
+	word-wrap: break-word;
+}
+
+
+/*-------method--------*/
+
+.method h4{
+	margin-bottom: 100px;
+}
+
+.method ul{
+	display: block;
+	margin-bottom: 165px;
+}
+.method-contents{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	width: 100%;
+	height: auto;
+	margin-top: -40px;
+	padding: 5% 0;
+}
+
+
+
+.method-img{
+	margin-top: 0px;
+}
+
+.method-img img{
+	width: 170px;
+	height: 160px;
+}
+
+.method-step{
+	font-size: 3.6rem;
+	line-height: 3.6rem;
+	margin:0 10px;
+	padding-top: 0;
+}
+
+.method-textbox{
+	margin: auto 0 auto 25px;
+
+}
+
+.method-title{
+	font-size: 2.4rem;
+	line-height: 2.4rem;
+	margin-top: 0px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+
+.method-text{
+	color: #333333;
+	font-size: 1.8rem;
+	text-align: none;
+	display: inline-block;
+}
+
+
+.method-span2{
+	font-size: 1.8rem;
+	color: #e4007f;
+}
+
+.method-span{
+	font-size: 2.4rem;
+	color: #e4007f;
+}
+
+.triangle1{
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #e4007f;
+  margin: 0 auto;
+}
+
+/*-------contact----------*/
+.contact{
+	width: 100%;
+	height: auto;
+	background-image: url(images/main.png );
+	background-size: 90%;
+	padding-bottom: 50%;
+	background-position:bottom;
+}
+
+.contact-contents{
+	width: 100%;
+	display: block;
+	padding-top: 80px;
+	margin: 0 auto;
+}
+
+.contact-contents h5{
+	font-size: 6.0rem;
+	width: 90%;
+	height:auto;
+	margin-left: 0px;
+	text-align: center;
+	background-image:none;
+	margin-bottom: 60px;
+}
+
+
+.form{
+	width: 90%;
+	height: auto;
+	margin: 0 auto;
+	padding-bottom: 80px;
+}
+.form-title{
+	padding-top: 55px;
+}
+
+.contact-form{
+ padding: 0 10%;
+text-align: center;
+}
+
+label{
+	margin-left: 0px;
+}
+
+input[type="text"],
+input[type="email"],
+select
+{
+width: 100%;
+}
+
+.form-button{
+	width: 80%;
+	margin-top: 10px;
+}
+
+}
+
+
+
+
+@media(max-width: 680px){
+
+.br-sp4{
+	display: none;
+}
+/*-------header----------*/
+header{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.sheet-title p{
+	font-size: 1.4rem;
+}
+
+h1 img{
+	width: 120px;
+}
+
+.register{
+	font-size: 1.5rem;
+	width: 26%;
+	padding: 20px 0;
+}
+
+/*------------main------------*/
+
+h2{
+	font-size: 7.0rem;
+	margin-top: 15%;
+}
+
+h2 span{
+	font-size: 4.0rem;
+}
+
+.point li{
+ margin-left: 60%;
+ margin-bottom: 2.0rem;
+}
+
+.point img{
+	width: 25px;
+	margin-right: 15px;
+}
+
+.point p{
+	font-size: 1.8rem;
+	line-height: 3.0rem;
+}
+
+
+.point span{
+	font-size: 2.8rem;
+	line-height: 3.0rem;
+}
+
+/*-------------service-------------*/
+.service-title{
+	font-size: 1.8rem;
+}
+
+.service-title2{
+	font-size: 1.8rempx;
+}
+
+
+.service-span{
+	font-size:3.0rem;
+}
+
+.service-wrap{
+	font-size: 1.5rem;
+}
+
+/**/
+
+.Job ul{
+	margin-bottom: 10%;
+}
+
+.Job li img{
+	width: 90%;
+	height: auto;
+	margin-top: 200px;
+}
+
+
+.job-title{
+	font-size: 1.6rem;
+	line-height: 3.0rem;
+}
+
+
+.job-title span{
+	font-size: 2.3rem;
+	line-height: 3.0rem;
+}
+
+.job-heading{
+	font-size: 1.8rem;
+	height: 1.8rem;
+}
+
+.Job-text{
+	font-size: 1.5rem;
+	height: 20%;
+}
+
+.Job-text2{
+	font-size: 1.5rem;
+	height: 15%;
+}
+
+/*-----------voice-----------*/
+
+.voice-title{
+	font-size: 1.8rem;
+	margin-top: 10px;
+}
+
+.voice-title span{
+	font-size: 2.5rem;
+	line-height: 4.0rem;
+}
+
+/*-------method--------*/
+.method-step{
+	font-size: 3.0rem;
+	line-height: 3.0rem;
+}
+
+
+.method-title{
+	font-size: 2.4rem;
+	line-height: 3.0rem;
+}
+
+
+.method-text{
+	font-size: 1.5rem;
+}
+
+
+.method-span2{
+	font-size: 1.5rem;
+}
+
+.method-span{
+	font-size: 2.0rem;
+}
+
+
+/*-------contact----------*/
+.contact-contents h5{
+	font-size: 5.0rem;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+
+
+}
+
+
+
+
+
+@media(max-width: 375px){
+.section-title{
+	font-size: 3.0rem;
+	margin-bottom: 60px;
+}
+
+.br-sp{
+	display: none;
+} 
+
+/*-------header----------*/
+
+
+
+.sheet-title p{
+	display: none;
+}
+
+h1 img{
+	width: 50%;
+	margin-right: 0px;
+}
+
+.register{
+	width: 60%;
+	padding: 10px 0;
+}
+
+/*------------main------------*/
+
+
+h2{
+	font-size: 4.5rem;
+  line-height: 4.5rem;
+	margin-top: 4.5rem;
+}
+
+h2 span{
+	font-size: 3.2rem;
+}
+
+.point img{
+	width: 15px;
+	margin-right: 10px;
+}
+
+.point p{
+	font-size: 1.0rem;
+	line-height: 1.8rem;
+}
+
+
+.point span{
+	font-size: 1.8rem;
+	line-height: 1.8rem;
+}
+
+.work-button{
+	margin-right: 0;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.work-button a{
+	width: 90%;
+	line-height: 50px;
+	border-radius:10px;
+}
+
+.work-button p{
+	font-size: 20px;
+}
+
+
+
+/*-------------service-------------*/
+.service h3{
+	font-size: 3.0rem;
+}
+
+.service li{
+	height: auto;
+	margin-top: 30px;
+}
+
+.service-title{
+	font-size: 1.5rem;
+	height: 2.2rem;
+	margin-bottom: 60px;
+}
+
+.service-title2{
+	font-size: 1.5rem;
+	height: 0px;
+	margin-bottom: 70px;
+}
+
+.service-span{
+	font-size:2.2rem;
+}
+
+/*job*/
+
+
+.Job{
+	margin: 165px 5% 0 5%;
+}
+
+.Job ul{
+	display: block;
+
+}
+
+.Job li{
+	width: 100%;
+	height: auto;
+	margin-bottom: 40px;
+}
+
+.Job li:last-child{
+	background-image: none;
+	margin-bottom: 0;
+}
+
+.Job li img{
+	width: 100%;
+	height: auto;
+	margin-top: 10%;
+}
+
+
+.job-title{
+	font-size: 1.8rem;
+	line-height: 3.0rem;
+	padding:20px 0  12px 30px;	
+}
+
+
+.job-title span{
+	font-size: 3.0rem;
+	line-height: 3.0rem;
+}
+
+.job-heading{
+	font-size: 2.0rem;
+	height: 2.0rem;
+	margin-bottom: 15px;
+}
+
+.Job-text{
+	font-size: 1.6rem;
+	line-height: 24px;
+	height: 98px;
+	margin-left: 10%;
+	margin-bottom: 30px;
+}
+
+.Job-text2{
+	font-size: 16px;
+	line-height: 24px;
+	height: 64px;
+	margin-left: 10%;
+	margin-bottom: 20px;
+}
+
+.Job-money{
+	font-size: 3.6rem;
+	line-height: 3.6rem;
+	margin-left: 30px;
+
+}
+
+.job-bouttondiv{
+	height: auto;
+	padding-top: 0px;
+	margin-bottom: 160px;
+}
+
+.job-boutton{
+	margin-top:  10％;
+	font-size:1.6rem ;
+	padding: 6% 8%;
+}
+
+.job-boutton span{
+	font-size: 2.4rem;
+}
+/*-----------voice-----------*/
+.voice ul{
+	width: 100%;
+	margin-bottom: 120px;
+}
+
+.voice li{
+	height: auto;
+	padding: 0 3%;
+	margin-bottom: 35px;
+}
+.voice img{
+	height: auto;
+	margin: auto 0;
+}
+.profession2{
+	font-size: 1.8rem;
+}
+.voice-oder{
+	margin: auto 0 auto 5%;
+}
+
+.voice-title{
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+}
+
+.voice-title span{
+	font-size: 1.8rem;
+	line-height: 2.4rem;
+}
+
+.voice-text{
+	margin-top: 1.0rem;
+}
+
+
+/*-------method--------*/
+
+.method ul{
+	width: 100%;
+	margin-bottom: 165px;
+}
+.method-contents{
+	width: 100%;
+}
+
+.method-img{
+	width: 40%;
+}
+
+.method-img img{
+	width: 100%;
+	height: auto;
+}
+.method-step{
+	font-size: 2.4rem;
+}
+
+.method-textbox{
+	width: 55%;
+	margin: auto 2%;
+}
+
+.method-title{
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.br-sp4{
+	display: none;
+}
+
+.method-text{
+	font-size: 15px;
+	text-align: none;
+	display: inline-block;
+}
+
+
+.method-span2{
+	font-size: 15px;
+	color: #e4007f;
+}
+
+.method-span{
+	font-size: 18px;
+	color: #e4007f;
+}
+
+.triangle1{
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #e4007f;
+  margin: 0 auto;
+}
+
+/*-------contact----------*/
+.contact{
+	width: 100%;
+	height: 1100px;
+	background-image: url(images/main.png );
+	background-size: 100%;
+	background-position:center bottom 100px;
+}
+
+.contact-contents{
+	width: 100%;
+	display: block;
+	padding-top: 45px;
+	margin: 0 auto;
+}
+
+.contact-contents h5{
+	font-size: 40px;
+	height:auto;
+  margin-left: 5%;
+	text-align: center;
+	background-image:none;
+	margin-bottom: 60px;
+}
+
+
+.form{
+	width: 90%;
+	height: 550px;
+	margin: 0 auto;
+}
+.form-title{
+	padding: 55px 0 ;
+	font-size: 20px;
+}
+
+.form-title span{
+	font-size: 36px;
+}
+
+.contact-form{
+ padding: 0 10%;
+text-align: center;
+}
+
+
+
+label{
+	margin-left: 0px;
+}
+
+input[type="text"],
+input[type="email"],
+select
+{
+width: 100%;
+}
+
+.form-button{
+	width: 80%;
+	font-size: 3.0rem;
+	margin-top: 10px;
+}
+
+
+.form-button span{
+	font-size: 2.4rem;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 750px){
+.br-sp2 {
+	display: none; 
+}
+.Job li:last-child{
+	display: none;
+}
+
+}
+
+@media screen and (min-width: 679px){
+.br-sp3 {display: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
