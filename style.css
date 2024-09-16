@@ -1134,7 +1134,7 @@ h2 span{
 
 
 
-@media(max-width: 375px){
+@media(max-width: 500px){
 .section-title{
 	font-size: 3.0rem;
 	margin-bottom: 60px;
